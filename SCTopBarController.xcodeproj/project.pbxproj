@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25BED6FE1A89E8B3006F0710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED6FD1A89E8B3006F0710 /* main.m */; };
+		25BED7011A89E8B3006F0710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED7001A89E8B3006F0710 /* AppDelegate.m */; };
+		25BED7041A89E8B3006F0710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED7031A89E8B3006F0710 /* ViewController.m */; };
+		25BED7071A89E8B3006F0710 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25BED7051A89E8B3006F0710 /* Main.storyboard */; };
+		25BED7091A89E8B3006F0710 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BED7081A89E8B3006F0710 /* Images.xcassets */; };
+		25BED70C1A89E8B3006F0710 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BED70A1A89E8B3006F0710 /* LaunchScreen.xib */; };
+		25BED7181A89E8B3006F0710 /* SCTopBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED7171A89E8B3006F0710 /* SCTopBarControllerTests.m */; };
+		25BED7241A89E8DF006F0710 /* MSTopBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED7231A89E8DF006F0710 /* MSTopBarController.m */; };
+		25BED7291A89E965006F0710 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED7281A89E965006F0710 /* UIView+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25BED7121A89E8B3006F0710 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25BED6F01A89E8B2006F0710 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25BED6F71A89E8B3006F0710;
+			remoteInfo = SCTopBarController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25BED6F81A89E8B3006F0710 /* SCTopBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCTopBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BED6FC1A89E8B3006F0710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BED6FD1A89E8B3006F0710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25BED6FF1A89E8B3006F0710 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25BED7001A89E8B3006F0710 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25BED7021A89E8B3006F0710 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25BED7031A89E8B3006F0710 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25BED7061A89E8B3006F0710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25BED7081A89E8B3006F0710 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25BED70B1A89E8B3006F0710 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		25BED7111A89E8B3006F0710 /* SCTopBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCTopBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25BED7161A89E8B3006F0710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25BED7171A89E8B3006F0710 /* SCTopBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTopBarControllerTests.m; sourceTree = "<group>"; };
+		25BED7221A89E8DF006F0710 /* MSTopBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTopBarController.h; sourceTree = "<group>"; };
+		25BED7231A89E8DF006F0710 /* MSTopBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTopBarController.m; sourceTree = "<group>"; };
+		25BED7251A89E939006F0710 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		25BED7271A89E965006F0710 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		25BED7281A89E965006F0710 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25BED6F51A89E8B3006F0710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BED70E1A89E8B3006F0710 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25BED6EF1A89E8B2006F0710 = {
+			isa = PBXGroup;
+			children = (
+				25BED6FA1A89E8B3006F0710 /* SCTopBarController */,
+				25BED7141A89E8B3006F0710 /* SCTopBarControllerTests */,
+				25BED6F91A89E8B3006F0710 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25BED6F91A89E8B3006F0710 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25BED6F81A89E8B3006F0710 /* SCTopBarController.app */,
+				25BED7111A89E8B3006F0710 /* SCTopBarControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25BED6FA1A89E8B3006F0710 /* SCTopBarController */ = {
+			isa = PBXGroup;
+			children = (
+				25BED7211A89E8DF006F0710 /* SCTopBarController */,
+				25BED6FF1A89E8B3006F0710 /* AppDelegate.h */,
+				25BED7001A89E8B3006F0710 /* AppDelegate.m */,
+				25BED7021A89E8B3006F0710 /* ViewController.h */,
+				25BED7031A89E8B3006F0710 /* ViewController.m */,
+				25BED7051A89E8B3006F0710 /* Main.storyboard */,
+				25BED7081A89E8B3006F0710 /* Images.xcassets */,
+				25BED70A1A89E8B3006F0710 /* LaunchScreen.xib */,
+				25BED6FB1A89E8B3006F0710 /* Supporting Files */,
+			);
+			path = SCTopBarController;
+			sourceTree = "<group>";
+		};
+		25BED6FB1A89E8B3006F0710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25BED6FC1A89E8B3006F0710 /* Info.plist */,
+				25BED6FD1A89E8B3006F0710 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25BED7141A89E8B3006F0710 /* SCTopBarControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				25BED7171A89E8B3006F0710 /* SCTopBarControllerTests.m */,
+				25BED7151A89E8B3006F0710 /* Supporting Files */,
+			);
+			path = SCTopBarControllerTests;
+			sourceTree = "<group>";
+		};
+		25BED7151A89E8B3006F0710 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25BED7161A89E8B3006F0710 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25BED7211A89E8DF006F0710 /* SCTopBarController */ = {
+			isa = PBXGroup;
+			children = (
+				25BED7261A89E965006F0710 /* UIView-Extension */,
+				25BED7251A89E939006F0710 /* Common.h */,
+				25BED7221A89E8DF006F0710 /* MSTopBarController.h */,
+				25BED7231A89E8DF006F0710 /* MSTopBarController.m */,
+			);
+			path = SCTopBarController;
+			sourceTree = "<group>";
+		};
+		25BED7261A89E965006F0710 /* UIView-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				25BED7271A89E965006F0710 /* UIView+Extension.h */,
+				25BED7281A89E965006F0710 /* UIView+Extension.m */,
+			);
+			path = "UIView-Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25BED6F71A89E8B3006F0710 /* SCTopBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BED71B1A89E8B3006F0710 /* Build configuration list for PBXNativeTarget "SCTopBarController" */;
+			buildPhases = (
+				25BED6F41A89E8B3006F0710 /* Sources */,
+				25BED6F51A89E8B3006F0710 /* Frameworks */,
+				25BED6F61A89E8B3006F0710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCTopBarController;
+			productName = SCTopBarController;
+			productReference = 25BED6F81A89E8B3006F0710 /* SCTopBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25BED7101A89E8B3006F0710 /* SCTopBarControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25BED71E1A89E8B3006F0710 /* Build configuration list for PBXNativeTarget "SCTopBarControllerTests" */;
+			buildPhases = (
+				25BED70D1A89E8B3006F0710 /* Sources */,
+				25BED70E1A89E8B3006F0710 /* Frameworks */,
+				25BED70F1A89E8B3006F0710 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25BED7131A89E8B3006F0710 /* PBXTargetDependency */,
+			);
+			name = SCTopBarControllerTests;
+			productName = SCTopBarControllerTests;
+			productReference = 25BED7111A89E8B3006F0710 /* SCTopBarControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25BED6F01A89E8B2006F0710 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = meilishuo;
+				TargetAttributes = {
+					25BED6F71A89E8B3006F0710 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					25BED7101A89E8B3006F0710 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 25BED6F71A89E8B3006F0710;
+					};
+				};
+			};
+			buildConfigurationList = 25BED6F31A89E8B2006F0710 /* Build configuration list for PBXProject "SCTopBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25BED6EF1A89E8B2006F0710;
+			productRefGroup = 25BED6F91A89E8B3006F0710 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25BED6F71A89E8B3006F0710 /* SCTopBarController */,
+				25BED7101A89E8B3006F0710 /* SCTopBarControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25BED6F61A89E8B3006F0710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BED7071A89E8B3006F0710 /* Main.storyboard in Resources */,
+				25BED70C1A89E8B3006F0710 /* LaunchScreen.xib in Resources */,
+				25BED7091A89E8B3006F0710 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BED70F1A89E8B3006F0710 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25BED6F41A89E8B3006F0710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BED7291A89E965006F0710 /* UIView+Extension.m in Sources */,
+				25BED7041A89E8B3006F0710 /* ViewController.m in Sources */,
+				25BED7011A89E8B3006F0710 /* AppDelegate.m in Sources */,
+				25BED6FE1A89E8B3006F0710 /* main.m in Sources */,
+				25BED7241A89E8DF006F0710 /* MSTopBarController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25BED70D1A89E8B3006F0710 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25BED7181A89E8B3006F0710 /* SCTopBarControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25BED7131A89E8B3006F0710 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25BED6F71A89E8B3006F0710 /* SCTopBarController */;
+			targetProxy = 25BED7121A89E8B3006F0710 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25BED7051A89E8B3006F0710 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BED7061A89E8B3006F0710 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25BED70A1A89E8B3006F0710 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25BED70B1A89E8B3006F0710 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25BED7191A89E8B3006F0710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25BED71A1A89E8B3006F0710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25BED71C1A89E8B3006F0710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCTopBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25BED71D1A89E8B3006F0710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SCTopBarController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25BED71F1A89E8B3006F0710 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SCTopBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCTopBarController.app/SCTopBarController";
+			};
+			name = Debug;
+		};
+		25BED7201A89E8B3006F0710 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SCTopBarControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SCTopBarController.app/SCTopBarController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25BED6F31A89E8B2006F0710 /* Build configuration list for PBXProject "SCTopBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BED7191A89E8B3006F0710 /* Debug */,
+				25BED71A1A89E8B3006F0710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BED71B1A89E8B3006F0710 /* Build configuration list for PBXNativeTarget "SCTopBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BED71C1A89E8B3006F0710 /* Debug */,
+				25BED71D1A89E8B3006F0710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25BED71E1A89E8B3006F0710 /* Build configuration list for PBXNativeTarget "SCTopBarControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25BED71F1A89E8B3006F0710 /* Debug */,
+				25BED7201A89E8B3006F0710 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25BED6F01A89E8B2006F0710 /* Project object */;
+}

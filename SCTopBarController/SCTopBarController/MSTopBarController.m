@@ -40,12 +40,12 @@
                 buttonItem.titleLabel.font = [UIFont systemFontOfSize:12.0];
             }
             buttonItem.tag = i;
-            [buttonItem addTarget:self action:@selector(clickTab:) forControlEvents:UIControlEventTouchUpInside];
+            [buttonItem addTarget:self action:@selector(clickWithAnimation:) forControlEvents:UIControlEventTouchUpInside];
             [self.topTabBar addSubview:buttonItem];
         }
         // 点击第一个item
         UIButton *item = self.topTabBar.subviews[0];
-        [self clickTab:item];
+        [self clickWithAnimation:item];
     }
 }
 
@@ -59,7 +59,7 @@
     return _topTabBar;
 }
 
-- (void)clickTab:(UIButton *)buttonItem {
+- (void)clickWithAnimation:(UIButton *)buttonItem {
     
     CGSize size = [buttonItem.titleLabel.text sizeWithAttributes:[NSDictionary dictionaryWithObjectsAndKeys:buttonItem.titleLabel.font,NSFontAttributeName, nil]];
     CGFloat lineWidth = size.width;
@@ -90,6 +90,10 @@
     self.currentButtonItem = buttonItem;
     
     [self clickButtonItem:buttonItem];
+}
+
+- (void)clickButtonItem:(UIButton *)buttonItem {
+    // doSomething
 }
 
 @end

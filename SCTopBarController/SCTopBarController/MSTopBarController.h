@@ -25,7 +25,8 @@
  *  所有标签的文字
  */
 @property (nonatomic, strong) NSArray *titles;
-
-
+/**
+ *  点击标签事件
+ */
 - (void)clickButtonItem:(UIButton *)buttonItem;
 @end

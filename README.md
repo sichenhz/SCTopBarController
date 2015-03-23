@@ -1,6 +1,6 @@
 ### 如何使用-SCTopBarController
 
-![icon](http://img01.taobaocdn.com/imgextra/i1/135480037/TB2UeWHcXXXXXa4XpXXXXXXXXXX_!!135480037.jpeg)
+![icon](http://img01.taobaocdn.com/imgextra/i1/135480037/TB23s9KcXXXXXXDXpXXXXXXXXXX_!!135480037.gif)
 
 1.创建类, 导入基类并继承于SCTopBarController
 

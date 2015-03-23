@@ -1,4 +1,4 @@
-### 三.如何使用-SCTopBarController
+### 如何使用-SCTopBarController
 
 ![icon](http://img01.taobaocdn.com/imgextra/i1/135480037/TB2UeWHcXXXXXa4XpXXXXXXXXXX_!!135480037.jpeg)
 

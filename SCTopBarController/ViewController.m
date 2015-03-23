@@ -16,10 +16,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.titles = [NSArray arrayWithObjects:@"待付款", @"待发货", @"待收货", @"已完成", @"已关闭",nil];
+    [self addOneChildVc:[[UIViewController alloc] init] title:@"待付款"];
+    [self addOneChildVc:[[UIViewController alloc] init] title:@"待发货"];
+    [self addOneChildVc:[[UIViewController alloc] init] title:@"待收货"];
+    [self addOneChildVc:[[UIViewController alloc] init] title:@"已完成"];
+    [self addOneChildVc:[[UIViewController alloc] init] title:@"已关闭"];
 }
 
-- (void)clickButtonItem:(UIButton *)buttonItem {
-    NSLog(@"%zd",buttonItem.tag);
+- (void)addOneChildVc:(UIViewController *)vc title:(NSString *)title {
+    vc.tabBarItem.title = title;
+    [self addChildViewController:vc];
 }
+
+- (void)clickWithAnimation:(UIButton *)buttonItem {
+    [super clickWithAnimation:buttonItem];
+    NSLog(@"%zd",self.selectedIndex);
+}
+
 @end

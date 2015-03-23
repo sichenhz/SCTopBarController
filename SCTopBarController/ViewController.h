@@ -6,10 +6,7 @@
 //  Copyright (c) 2015年 meilishuo. All rights reserved.
 //
 
-#import "MSTopBarController.h"
-
-@interface ViewController : MSTopBarController
-
-
+#import "SCTopBarController.h"
+@interface ViewController : SCTopBarController
 @end
 

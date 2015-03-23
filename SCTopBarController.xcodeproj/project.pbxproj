@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25429A301AC02AA800C03DBE /* SCTopBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25429A2F1AC02AA800C03DBE /* SCTopBarController.m */; };
 		25BED6FE1A89E8B3006F0710 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED6FD1A89E8B3006F0710 /* main.m */; };
 		25BED7011A89E8B3006F0710 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED7001A89E8B3006F0710 /* AppDelegate.m */; };
 		25BED7041A89E8B3006F0710 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED7031A89E8B3006F0710 /* ViewController.m */; };
@@ -14,8 +15,6 @@
 		25BED7091A89E8B3006F0710 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BED7081A89E8B3006F0710 /* Images.xcassets */; };
 		25BED70C1A89E8B3006F0710 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BED70A1A89E8B3006F0710 /* LaunchScreen.xib */; };
 		25BED7181A89E8B3006F0710 /* SCTopBarControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED7171A89E8B3006F0710 /* SCTopBarControllerTests.m */; };
-		25BED7241A89E8DF006F0710 /* MSTopBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED7231A89E8DF006F0710 /* MSTopBarController.m */; };
-		25BED7291A89E965006F0710 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BED7281A89E965006F0710 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25429A2E1AC02AA800C03DBE /* SCTopBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCTopBarController.h; sourceTree = "<group>"; };
+		25429A2F1AC02AA800C03DBE /* SCTopBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCTopBarController.m; sourceTree = "<group>"; };
 		25BED6F81A89E8B3006F0710 /* SCTopBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCTopBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BED6FC1A89E8B3006F0710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25BED6FD1A89E8B3006F0710 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,11 +43,6 @@
 		25BED7111A89E8B3006F0710 /* SCTopBarControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SCTopBarControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25BED7161A89E8B3006F0710 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25BED7171A89E8B3006F0710 /* SCTopBarControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTopBarControllerTests.m; sourceTree = "<group>"; };
-		25BED7221A89E8DF006F0710 /* MSTopBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTopBarController.h; sourceTree = "<group>"; };
-		25BED7231A89E8DF006F0710 /* MSTopBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTopBarController.m; sourceTree = "<group>"; };
-		25BED7251A89E939006F0710 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
-		25BED7271A89E965006F0710 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		25BED7281A89E965006F0710 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,21 +126,10 @@
 		25BED7211A89E8DF006F0710 /* SCTopBarController */ = {
 			isa = PBXGroup;
 			children = (
-				25BED7261A89E965006F0710 /* UIView-Extension */,
-				25BED7251A89E939006F0710 /* Common.h */,
-				25BED7221A89E8DF006F0710 /* MSTopBarController.h */,
-				25BED7231A89E8DF006F0710 /* MSTopBarController.m */,
+				25429A2E1AC02AA800C03DBE /* SCTopBarController.h */,
+				25429A2F1AC02AA800C03DBE /* SCTopBarController.m */,
 			);
 			path = SCTopBarController;
-			sourceTree = "<group>";
-		};
-		25BED7261A89E965006F0710 /* UIView-Extension */ = {
-			isa = PBXGroup;
-			children = (
-				25BED7271A89E965006F0710 /* UIView+Extension.h */,
-				25BED7281A89E965006F0710 /* UIView+Extension.m */,
-			);
-			path = "UIView-Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,11 +232,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25BED7291A89E965006F0710 /* UIView+Extension.m in Sources */,
 				25BED7041A89E8B3006F0710 /* ViewController.m in Sources */,
 				25BED7011A89E8B3006F0710 /* AppDelegate.m in Sources */,
 				25BED6FE1A89E8B3006F0710 /* main.m in Sources */,
-				25BED7241A89E8DF006F0710 /* MSTopBarController.m in Sources */,
+				25429A301AC02AA800C03DBE /* SCTopBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

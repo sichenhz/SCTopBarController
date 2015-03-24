@@ -2,7 +2,7 @@
 
 ![icon](http://img01.taobaocdn.com/imgextra/i1/135480037/TB23s9KcXXXXXXDXpXXXXXXXXXX_!!135480037.gif)
 
-####创建类, 导入主头文件并继承
+####创建新类, 导入主头文件并继承
 
     #import "SCTopBarController.h"
     @interface ViewController : SCTopBarController

@@ -21,5 +21,5 @@
 
     - (void)clickWithAnimation:(UIButton *)buttonItem {
 	    [super clickWithAnimation:buttonItem];
-    // 在这里执行额外的操作
+	    // 在这里执行额外的操作
     }
